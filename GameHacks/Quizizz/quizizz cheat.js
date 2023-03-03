@@ -1,0 +1,1 @@
+javascript:(function()%7Bfetch(%22https%3A%2F%2Fraw.githubusercontent.com%2Fgbaranski%2Fquizizz-cheat%2Fmaster%2Fdist%2Fbundle.js%22)%20%20.then((res)%20%3D%3E%20res.text()%20%20.then((t)%20%3D%3E%20eval(t)))%7D)()%3B
