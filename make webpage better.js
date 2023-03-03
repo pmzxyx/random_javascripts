@@ -1,0 +1,2 @@
+javascript:WebFontConfig=%7Bgoogle:%7Bfamilies:["Quicksand::latin"]%7D%7D,function()%7Bvar%20a=document.createElement("script");a.src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js",a.type="text/javascript",a.async="true";var%20b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)%7D();(function()%7Bvar%20elems=document.getElementsByTagName("*");for(var%20i%20=%200;%20i<elems.length;i++)%7Belems[i].style.fontFamily="Quicksand";document.body.style.background="black";%20elems[i].style.color="white"%7D%7D)();
+
