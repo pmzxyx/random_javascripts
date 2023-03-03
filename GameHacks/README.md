@@ -1,5 +1,4 @@
 # Game Hacks
 
 Some game hacks or bookmarklets for you.
- -Cheats
- -Guis
+Contains Cheats and Guis for games.
