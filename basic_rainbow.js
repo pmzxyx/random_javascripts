@@ -1,0 +1,3 @@
+javascript:((r,a,s,p,b,e,n)=>{let w=window,l=e("body").classList,x=c=>l.remove(c);if(!e("#"+r+s))e("head").innerHTML+=`<style id="${r+s}">@keyframes ${r}-${a}{${[0,1,2,3,4,5,6].map(i=>i/0.06+"%{background-color:#"+"c44c44cc4cc4c".substr(i%2*5+i%6,3)+"}").join("")}}.${r}{${a}:${r}-${a} 15s linear 0s infinite normal}.${r+p}{${a}-play-state:paused}</style>`;if(l.contains(r)){if(w[r][b]+500>=n){x(r);x(r+p)}else{l.toggle(r+p);w[r][b]=n}}else{l.add(r);w[r]={before:0}}})("rainbowbg3","animation","-style","-pause","before",q=>document.querySelector(q),Date.now())
+
+// makes the background rainbow. rgb!
