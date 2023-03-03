@@ -1,0 +1,9 @@
+// basic
+javascript:(function(){const a=document.createElement('div');a.style.position='fixed';a.style.top='5%';a.style.left='50%';a.style.transform='translate(-50%, 0%';a.style.fontSize='5rem';a.style.backgroundColor='#3a3aff';a.style.color='#ee0000';a.style.border='10px%20solid%20#ee0000';a.style.zIndex='9999';a.style.lineHeight='normal';a.style.cursor='not-allowed';a.style.userSelect='none';a.textContent='YOU%20ARE%20BEING%20HACKED%20:)';document.body.appendChild(a);})();
+
+//blink
+javascript:(function(){const a=document.createElement('div');a.style.position='fixed';a.style.top='5%';a.style.left='50%';a.style.transform='translate(-50%, 0%';a.style.fontSize='5rem';a.style.backgroundColor='#3a3aff';a.style.color='#ee0000';a.style.border='10px%20solid%20#ee0000';a.style.zIndex='9999';a.style.lineHeight='normal';a.style.cursor='not-allowed';a.style.userSelect='none';a.textContent='YOU%20ARE%20BEING%20HACKED%20:)';document.body.appendChild(a);const%20b%20=%20['overline','line-through','blink','underline'];let%20c%20=%200;setInterval(()=%3E{a.style.textDecorationLine=b[c];if(c%3Cb.length-1)c++;else%20c=0;},100);})();
+
+// flash (elipsey warning)
+
+javascript:(function(){const a=document.createElement('div');a.style.position='fixed';a.style.top='5%';a.style.left='50%';a.style.transform='translate(-50%, 0%';a.style.fontSize='5rem';a.style.backgroundColor='#3a3aff';a.style.color='#ee0000';a.style.border='10px%20solid%20#ee0000';a.style.zIndex='9999';a.style.lineHeight='normal';a.style.cursor='not-allowed';a.style.userSelect='none';a.textContent='YOU%20ARE%20BEING%20HACKED%20:)';document.body.appendChild(a);const%20b%20=%20['overline','line-through','blink','underline'];let%20c%20=%200;setInterval(()=%3E{a.style.textDecorationLine=b[c];const%20d=a.style.backgroundColor;a.style.backgroundColor=a.style.color;a.style.color=d;a.style.borderColor=d;if(c%3Cb.length-1)c++;else%20c=0;},100);})();
