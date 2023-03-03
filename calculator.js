@@ -1,0 +1,1 @@
+javascript:expr=prompt(%27Formula...(eg:%20%202*3%20+%207/8%20)%27,%27%27);if(expr!=null)%7Bwith(Math)%7Bevl=parseFloat(eval(expr))%7D;if(isNaN(evl))%7Balert(%27Not%20a%20number!%27)%7Delse%7Balert(evl)%7D%7Delse%7Bvoid(null)%7D
