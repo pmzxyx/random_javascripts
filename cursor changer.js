@@ -1,0 +1,1 @@
+javascript:var c=prompt("what mouse do you want? the options are none,alias,all-scroll,auto,cell,col-resize,copy,e-resize,help,not-allowed,progress, and grabbing. Be sure you write them exactly how I did.");(function()%7Bvar%20x%20=%20document.getElementsByTagName("*");for%20(i=0;i<x.length;i++)%7Bx[i].style.cursor=c%7D;%7D());
