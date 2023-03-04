@@ -687,7 +687,7 @@ loadScript("https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraft
       plr.z = 0;
     }
     if (e.which == 69) {
-      alert("heheh..... E in e.which is 69!!!!!\r\nenjoy tha speed");
+      alert("fast");
       renderer.domElement.requestPointerLock();
       world.fric = 0.85;
       world.grav = 10;
@@ -721,7 +721,7 @@ loadScript("https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraft
       setSlot(9);
     }
     if (e.which == 72) {
-      plr.hp = Number(prompt("sethp", "num"))
+      plr.hp = Number(prompt("Set Health", plr.hp))
       plr.hps = true
       wait(function() {
         plr.hps = false
