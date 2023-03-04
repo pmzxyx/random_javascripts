@@ -27,7 +27,7 @@ function loadScript(url, callback) {
   head.appendChild(script);
 }
 
-  loadScript("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/three.js", function() {
+  loadScript("https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/three.js", function() {
     var screens = [
       [], // Home
       [], //Settings
@@ -115,7 +115,7 @@ function loadScript(url, callback) {
     var logo = c.i(btns)
     screens[0].push(logo)
     logo.style = "width: 500px; height: auto; margin: auto; margin-bottom: 50px; image-rendering: pixelated;"
-    logo.src = "https://ma.susstuff.repl.co/ui/logo.png"
+    logo.src = "https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/gerlandstuffstuff.png"
 
     // HOME
     var gcred = c.t(btns, 0, "Press E, T, and H")
@@ -137,7 +137,7 @@ function loadScript(url, callback) {
 
     // CREDITS
 
-    var gcred = c.t(btns, 2, "<a href='https://susstuff.repl.co' style='color: skyblue'>Susstuff</a> (Creator)")
+    var gcred = c.t(btns, 2, "<a href='pmzxyx/random_javascripts/edit/main/minecraftlet' style='color: skyblue'>Susstuff</a> (Fixer)")
     var tjcred = c.t(btns, 2, "THREE.js (Engine)")
     var mcred = c.t(btns, 2, "Minecraft (Assets)")
     var sdone = c.b(btns, 2, "Back", function() {
