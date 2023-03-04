@@ -27,7 +27,7 @@ function loadScript(url, callback) {
   head.appendChild(script);
 }
 
-  loadScript("https://susstuff.repl.co/js/three.js", function() {
+  loadScript("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/three.js", function() {
     var screens = [
       [], // Home
       [], //Settings
