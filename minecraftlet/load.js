@@ -70,7 +70,7 @@ function loadScript(url, callback) {
 }
 
 wait(function() {
-  loadScript("https://raw.githubusercontent.com/pmzxyx/random_javascripts/blob/main/minecraftlet/title.js", function() {
+  loadScript("https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/title.js", function() {
     wait(function() {
       load.animate(hide, {
         duration: 500,
