@@ -1,3 +1,5 @@
-# Google snake mods
+# Google Snake Workshop
 
-some mods for google snake, like steam workshop. I did not make all of these.
+Here, you can find some mods for Google Snake (go to google.com and search snake). Some might not work, but it is cool having them.
+
+Most mods are here: https://github.com/orgs/DarkSnakeGang/repositories
