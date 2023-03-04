@@ -30,7 +30,7 @@ function loadScript(url, callback) {
   head.appendChild(script);
 }
 
-loadScript("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/three.js", function() {
+loadScript("https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/three.js", function() {
   // VALUES!!!! \\
   var plr = {
     x: 0,
@@ -162,12 +162,12 @@ loadScript("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/min
   const crosshair = new Image();
   const tools = new Image();
   const bars = new Image();
-  hotbar.src = "https://raw.githubusercontent.com/pmzxyx/random_javascripts/blob/main/minecraftlet/hotbar.png";
-  crosshair.src = "https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/crosshair.png";
+  hotbar.src = "";
+  crosshair.src = "https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/hotbar.png";
   tools.crossOrigin = "anonymous";
-  tools.src = "https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/tools.png";
-  hbslot.src = "https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/hbselect.png";
-  bars.src = "https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/bars.png"
+  tools.src = "https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/tools.png";
+  hbslot.src = "https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/hbselect.png";
+  bars.src = "https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/bars.png"
   bars.crossOrigin = "anonymous"
 
   document.body.style.margin = "0";
@@ -224,19 +224,19 @@ loadScript("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/min
     e.wrapT = THREE.RepeatWrapping;
   }
 
-  var gtt = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/grass_top.png");
-  var gt = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/grass.png");
-  var dt = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/dirt.png");
-  var wtt = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/wood_top.png");
-  var wt = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/wood.png");
+  var gtt = loader.load("https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/grass_top.png");
+  var gt = loader.load("https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/grass.png");
+  var dt = loader.load("https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/dirt.png");
+  var wtt = loader.load("https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/wood_top.png");
+  var wt = loader.load("https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/wood.png");
   format(gtt);
   format(gt);
   format(dt);
 
-  var ht1 = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/hand1.png");
-  var ht2 = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/hand2.png");
-  var htt = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/hand5.png");
-  var hbt = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/hand3.png");
+  var ht1 = loader.load("https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/hand1.png");
+  var ht2 = loader.load("https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/hand2.png");
+  var htt = loader.load("https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/hand5.png");
+  var hbt = loader.load("https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/hand3.png");
   pixel(ht1);
   pixel(ht2);
   pixel(htt);
@@ -346,7 +346,7 @@ loadScript("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/min
   wood.castShadow = true;
 
   const quagmesh = new THREE.SphereGeometry(1, 16, 16);
-  const quagtex = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/quag.png");
+  const quagtex = loader.load("https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/quag.png");
   const quagmat = new THREE.MeshPhongMaterial({
     color: 0xfffff,
     shininess: 100,
