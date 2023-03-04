@@ -1,1 +1,1 @@
-Game.SetAllAchievs(1)
+javascript:Game.SetAllAchievs(1)
