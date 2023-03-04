@@ -12,7 +12,7 @@ document.body.parentNode.appendChild(load)
 load.style = "background: #f0323e; position: fixed; left: 50%; top: 50%; transform: translate(-50%,-50%); width: 100%; height: 100%; z-index: 5000000000;"
 var logo = document.createElement("img")
 load.appendChild(logo)
-logo.src = "https://ma.susstuff.repl.co/ui/load.png"
+logo.src = "https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/gerlandstuffstuff.png"
 logo.style = "position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); width: calc(100% - 50%); height: auto;"
 var bar = document.createElement("div")
 load.appendChild(bar)
@@ -70,7 +70,7 @@ function loadScript(url, callback) {
 }
 
 wait(function() {
-  loadScript("https://ma.susstuff.repl.co/builds/tjs/title.js", function() {
+  loadScript("https://github.com/pmzxyx/random_javascripts/blob/main/minecraftlet/title.js", function() {
     wait(function() {
       load.animate(hide, {
         duration: 500,
