@@ -6,4 +6,4 @@ if they are one lined, insert them into the bookmarklets section.  If they have 
 
 
 # Your Bookmarklets 
-If you have any cool bookmarklets you want me to add, tell me. 
+If you have any cool bookmarklets you want me to add, tell me. You can put your bookmarklets in Issues -> Ideas
