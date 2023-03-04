@@ -1,0 +1,1 @@
+javascript:var i = Math.floor(Math.random() * (6)) + 1; var y = Math.floor(Math.random() * (6)) + 1; alert("rolling dice..."); alert(i + y);javascript:var i = Math.floor(Math.random() * (6)) + 1; var y = Math.floor(Math.random() * (6)) + 1; alert("rolling dice..."); alert(i + y);
