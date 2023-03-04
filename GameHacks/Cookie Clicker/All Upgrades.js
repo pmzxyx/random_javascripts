@@ -1,0 +1,1 @@
+Game.SetAllUpgrades(1)
