@@ -1,1 +1,1 @@
-Game.SetAllUpgrades(1)
+javascript:Game.SetAllUpgrades(1)
