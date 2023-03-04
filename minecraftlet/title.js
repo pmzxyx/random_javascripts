@@ -182,7 +182,7 @@ function loadScript(url, callback) {
       btns.style.display = "none"
       s.remove.apply(s, s.children);
       closed = true
-      loadScript("https://ma.susstuff.repl.co/builds/tjs/build.js", function() {})
+      loadScript("https://cdn.jsdelivr.net/gh/pmzxyx/random_javascripts@main/minecraftlet/build.js", function() {})
     }
 
     animate();
