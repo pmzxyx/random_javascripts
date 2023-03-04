@@ -30,7 +30,7 @@ function loadScript(url, callback) {
   head.appendChild(script);
 }
 
-loadScript("https://susstuff.repl.co/js/three.js", function() {
+loadScript("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/three.js", function() {
   // VALUES!!!! \\
   var plr = {
     x: 0,
@@ -162,12 +162,12 @@ loadScript("https://susstuff.repl.co/js/three.js", function() {
   const crosshair = new Image();
   const tools = new Image();
   const bars = new Image();
-  hotbar.src = "https://ma.susstuff.repl.co/ui/hotbar.png";
-  crosshair.src = "https://ma.susstuff.repl.co/ui/crosshair.png";
+  hotbar.src = "https://raw.githubusercontent.com/pmzxyx/random_javascripts/blob/main/minecraftlet/hotbar.png";
+  crosshair.src = "https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/crosshair.png";
   tools.crossOrigin = "anonymous";
-  tools.src = "https://ma.susstuff.repl.co/items/tools.png";
-  hbslot.src = "https://ma.susstuff.repl.co/ui/hbselect.png";
-  bars.src = "https://ma.susstuff.repl.co/ui/bars.png"
+  tools.src = "https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/tools.png";
+  hbslot.src = "https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/hbselect.png";
+  bars.src = "https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/bars.png"
   bars.crossOrigin = "anonymous"
 
   document.body.style.margin = "0";
@@ -224,19 +224,19 @@ loadScript("https://susstuff.repl.co/js/three.js", function() {
     e.wrapT = THREE.RepeatWrapping;
   }
 
-  var gtt = loader.load("https://ma.susstuff.repl.co/blocks/grass_top.png");
-  var gt = loader.load("https://ma.susstuff.repl.co/blocks/grass.png");
-  var dt = loader.load("https://ma.susstuff.repl.co/blocks/dirt.png");
-  var wtt = loader.load("https://ma.susstuff.repl.co/blocks/wood_top.png");
-  var wt = loader.load("https://ma.susstuff.repl.co/blocks/wood.png");
+  var gtt = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/grass_top.png");
+  var gt = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/grass.png");
+  var dt = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/dirt.png");
+  var wtt = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/wood_top.png");
+  var wt = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/wood.png");
   format(gtt);
   format(gt);
   format(dt);
 
-  var ht1 = loader.load("https://ma.susstuff.repl.co/plr/hand1.png");
-  var ht2 = loader.load("https://ma.susstuff.repl.co/plr/hand2.png");
-  var htt = loader.load("https://ma.susstuff.repl.co/plr/hand5.png");
-  var hbt = loader.load("https://ma.susstuff.repl.co/plr/hand3.png");
+  var ht1 = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/hand1.png");
+  var ht2 = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/hand2.png");
+  var htt = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/hand5.png");
+  var hbt = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/hand3.png");
   pixel(ht1);
   pixel(ht2);
   pixel(htt);
@@ -346,7 +346,7 @@ loadScript("https://susstuff.repl.co/js/three.js", function() {
   wood.castShadow = true;
 
   const quagmesh = new THREE.SphereGeometry(1, 16, 16);
-  const quagtex = loader.load("https://ma.susstuff.repl.co/blocks/quag.png");
+  const quagtex = loader.load("https://raw.githubusercontent.com/pmzxyx/random_javascripts/main/minecraftlet/quag.png");
   const quagmat = new THREE.MeshPhongMaterial({
     color: 0xfffff,
     shininess: 100,
@@ -629,8 +629,8 @@ loadScript("https://susstuff.repl.co/js/three.js", function() {
     if (plr.hp <= 0) {
       plr.hp = 0
       updateUI()
-      alert("yew died")
-      window.location.replace("https://ma.susstuff.repl.co")
+      document.write("You Died! Score:0             [Returning to main menu..]")
+      window.location.replace("https://github.com/pmzxyx/random_javascripts/blob/main/minecraftlet/death.md")
     }
     if (plr.y < 0) {
       plr.y = 0;
