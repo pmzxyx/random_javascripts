@@ -88,7 +88,7 @@
 
     // a header to say what's going on
     var hdr = document.createElement("div");
-    hdr.innerHTML = "<b>Which game would you like to play?</b> <a href='https://susstuff.repl.co' style='font-family:Verdana;margin-bottom:20px;color:white;'>New external JS made by Gerland.</a><br>Note: May not work well on every website. Original by <a style='font-family:Verdana;margin-bottom:20px;color:white;' href='http://codu.org/websplat/'>Gregor Richards.</a>";
+    hdr.innerHTML = "<b>Which game would you like to play?</b> <a href='https://susstuff.repl.co' style='font-family:Verdana;margin-bottom:20px;color:white;'>New external JS.</a><br>Note: May not work well on every website. Original by <a style='font-family:Verdana;margin-bottom:20px;color:white;' href='http://codu.org/websplat/'>Gregor Richards.</a>";
     hdr.style = "font-family:Verdana;margin-bottom:20px;color:white;"
     selector.appendChild(hdr);
 
