@@ -1,0 +1,4 @@
+javascript:async function GetStorage(){try{return JSON.parse(await localforage.getItem("icysave"))}catch(e){return"{}"}}async function GetStringifiedStorage(){try{return await localforage.getItem("icysave")}catch(e){return"{}"}}async function UnlockAllLevels(){let e=await GetStorage();if(!e||"{}"==e)return!1;let t=e.data;return!!t&&(t.forEach((e,t)=>{e[0].forEach((t,r)=>{e[0][r]=1})}),e.data=t,e=JSON.stringify(e),localforage.setItem("icysave",e),!0)}try{UnlockAllLevels().then(e=>{e?alert("Unlocked all levels. Reload to confirm."):alert("There was an error unlocking levels. \n If this error proceeds to occur, start atleast 1 level on the game.")})}catch(e){alert("There was an error unlocking levels.")};
+
+/* Every script in mathplayground is made by me. */
+/*  Unlocks all levels in Icy Purple Head 2 (www.mathplayground.com/logic_icy_purple_head_2.html) or (www.mathplayground.com/icy_purple_head_2/index.html)*/
