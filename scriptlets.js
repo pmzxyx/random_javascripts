@@ -10,9 +10,11 @@ eruda.js text/javascript
   document.body.append(script); 
   script.onload = function () { 
     eruda.init(); 
-  }
+    console.log("Eruda loaded");
+  };
   script.onerror = function () {
     alert("Error loading Eruda");
-  }
+    console.log("Eruda not loaded");
+  };
 })();
 
