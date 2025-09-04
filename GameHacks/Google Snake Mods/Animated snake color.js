@@ -1,1 +1,0 @@
-javascript: req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/DarkSnakeGang/GoogleSnakeAnimatedColours/master/animated-snake.js'); req.onload = function() { (1,eval)(this.responseText); }; req.send();

@@ -1,1 +1,0 @@
-javascript: req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/DarkSnakeGang/GoogleSnakeDeleteStuffMod/main/javascript.js'); req.onload = function() { (1,eval)(this.responseText); }; req.send();

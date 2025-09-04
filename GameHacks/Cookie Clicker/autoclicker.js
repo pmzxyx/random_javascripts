@@ -1,3 +1,0 @@
-javascript:(function()%257Bfunction%20clickId(id)%20%257B%250A%20%20var%20element%20%253D%20document.getElementById(id)%253B%250A%2509if(element%20!%253D%253D%20undefined)%20%257B%250A%2509%2509doEvent(element%252C%20%22click%22)%253B%250A%2509%257D%250A%2509window.setTimeout(clickId%252C%2025%252C%20id)%253B%250A%257D%250A%250Afunction%20doEvent(element%252C%20type)%20%257B%250A%20%20%20%20trigger%20%253D%20document.createEvent(%27HTMLEvents%27)%253B%250A%20%20%20%20trigger.initEvent(type%252C%20true%252C%20true)%253B%250A%20%20%20%20element.dispatchEvent(trigger)%253B%250A%257D%250A%250Awindow.setTimeout(clickId%252C%2025%252C%20%22bigCookie%22)%253B%250Awindow.setTimeout(clickId%252C%2025%252C%20%22goldenCookie%22)%253B%257D)()%253B
-
-//autoclicker 
