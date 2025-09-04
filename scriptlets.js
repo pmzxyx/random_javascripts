@@ -1,8 +1,3 @@
-test.js text/javascript
-(function() {
-  alert("test.js");
-})();
-
 eruda.js text/javascript
 (function () { 
   var script = document.createElement('script'); 
