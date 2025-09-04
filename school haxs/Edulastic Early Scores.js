@@ -1,1 +1,0 @@
-javascript: var r = new XMLHttpRequest(); r.open("GET", "https://cdn.jsdelivr.net/gh/ading2210/edulastic-tools@latest/scores.js", true); r.addEventListener("load", function(){eval(this.responseText);}); r.send();
