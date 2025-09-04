@@ -1,1 +1,0 @@
-javascript:(function()%7B%22use%20strict%22%3B%20var%20all%20%3D%20document.getElementsByTagName(%22*%22)%3B%20var%20i%3B%20var%20max%3B%20for%20(i%20%3D%200%2C%20max%20%3D%20all.length%3B%20i%20%3C%20max%3B%20i%20%2B%3D%201)%20%7B%20if%20(all%5Bi%5D.disabled)%20%7B%20all%5Bi%5D.disabled%20%3D%20'false'%3B%20%7D%20%7D%20%7D)()

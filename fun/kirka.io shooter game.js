@@ -1,1 +1,0 @@
-javascript:!function(){var t=document.createElement("iframe");t.setAttribute("src","https://kirka.io"),t.setAttribute("width","600px"),t.setAttribute("height","300px"),document.body.appendChild(t),t.scrollIntoView()}();

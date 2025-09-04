@@ -1,1 +1,0 @@
-javascript:(()=>{const a=document.body.style.border;document.body.style.border='5px solid #dd0000';window.addEventListener('click',e=%3E{e.preventDefault();const%20txt=e.target.textContent??'[content]';const%20nTxt=prompt('Change%20content:',txt);e.target.textContent=nTxt;document.body.style.border=a;},%20{once:true});})();

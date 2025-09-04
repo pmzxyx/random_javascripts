@@ -1,1 +1,0 @@
-javascript:(function()%7B%22use%20strict%22%3B%20location.href%20%3D%20'https%3A%2F%2Ftranslate.google.com%2Ftranslate%3Flangpair%3Dauto%257Cen%26u%3D'%20%2B%20encodeURIComponent(location.href)%3B%20%7D)()
