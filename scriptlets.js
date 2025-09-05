@@ -1,7 +1,4 @@
-/// eval.js
-/// alias evaluate.js
-/// world isolated
-/// dependency run-at.fn
+eval.js text/javascript
 function evaluateCode(x=undefined) {
   try {
       let p  = x != undefined && x != null ? x : prompt("Enter code to evaluate");
