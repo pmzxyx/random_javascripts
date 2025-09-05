@@ -1,12 +1,16 @@
 eval.js text/javascript
 (function() {
-  const evaluateCode(x) => {
+  function evaluateCode(x) {
   try {
-      let p  = prompt("evaluate");
+      let p  = x != undefined ? x : prompt("Enter code to evaluate");
       let r = eval(p);
+      if(typeof r == 'object') {
+        let content = r.match(/\[object ([A-Za-z0-9 -_]+)]/gmi)[0];
+        return content;
+      }
   } catch (er) {
     alert(er);
-    return er;
+    return e.stack || e;
   }
   };
 })()
