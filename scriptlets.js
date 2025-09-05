@@ -1,5 +1,5 @@
 /// eval.js
-/// alias rh.js
+/// alias evaluate.js
 /// world isolated
 /// dependency safe-self.fn
 function evaluateCode(x=undefined) {
