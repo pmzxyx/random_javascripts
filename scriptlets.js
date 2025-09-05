@@ -1,3 +1,13 @@
+eval.js text/javascript
+(function() {
+  try {
+      let p  = prompt("evaluate");
+      let r = eval(p);
+  } catch (er) {
+    alert(er);
+  }
+})()
+
 jsl.js text/javascript
 (function() {
     /** ===================== STORAGE HELPERS ===================== */
