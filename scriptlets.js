@@ -6,7 +6,7 @@ eval.js text/javascript
       let r = eval(p);
       if(typeof r == 'object') {
         let content = new String(r).matchAll(/\[object ([A-Za-z0-9 -_]+)]/gmi)[0];
-        return content;
+        return Array.from(content);
       }
   } catch (er) {
     alert(er);
