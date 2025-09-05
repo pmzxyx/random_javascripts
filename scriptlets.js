@@ -2,7 +2,7 @@
 /// alias rh.js
 /// world isolated
 /// dependency safe-self.fn
-  function evaluateCode(x=undefined) {
+function evaluateCode(x=undefined) {
   try {
       let p  = x != undefined && x != null ? x : prompt("Enter code to evaluate");
       let r = eval(p);
@@ -25,4 +25,4 @@
     alert(er);
     return er.stack || er;
   }
-  };
+};
