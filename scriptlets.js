@@ -1,6 +1,7 @@
 /// eval.js
 /// world main
 function evaluateCode(x = undefined) {
+    try {
     let p = (x !== undefined && x !== null) ? x : prompt("Enter code to evaluate");
     let r = eval(p);
 
@@ -13,7 +14,12 @@ function evaluateCode(x = undefined) {
     } else {
       alert(r);
       return r;
-    }
-}
+    };
+    } catch (error) {
+      alert(error);
+        return error.stack || error
+    };
+};
 
+//terminator
 void 0;
