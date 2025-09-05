@@ -20,3 +20,5 @@ function evaluateCode(x = undefined) {
     return er;
   }
 }
+
+void 0;
