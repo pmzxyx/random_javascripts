@@ -1,25 +1,22 @@
-eval.js text/javascript
-function evaluateCode(x=undefined) {
+/// eval.js
+/// world main
+function evaluateCode(x = undefined) {
   try {
-      let p  = x != undefined && x != null ? x : prompt("Enter code to evaluate");
-      let r = eval(p);
-      if(typeof r == 'object') {
-        let content = /\[object ([A-Za-z0-9 -_]+)]/gi.exec(new String(r));
-        let cl = content ? content[1] || content[0] : "Object";
-        let len = Object.keys(r).length;
-        if(len == 0) {
-          for (let key in document.body) {
-            len++
-          }
-        };
-        alert (`${cl} {${len > 0 ? "..." : ""}}`);
-        return r;
-      } else {
-        alert(r);
-        return r;
-      };
+    let p = (x !== undefined && x !== null) ? x : prompt("Enter code to evaluate");
+    let r = eval(p);
+
+    if (typeof r === 'object' && r !== null) {
+      let content = /\[object ([A-Za-z0-9-_ ]+)]/.exec(Object.prototype.toString.call(r));
+      let cl = content ? content[1] : "Object";
+      let len = Object.keys(r).length;
+      alert(`${cl} {${len > 0 ? "..." : ""}}`);
+      return r;
+    } else {
+      alert(r);
+      return r;
+    }
   } catch (er) {
-    alert(er);
-    return er.stack || er;
+    alert(er.stack || er);
+    return er;
   }
-};
+}
