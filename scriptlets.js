@@ -6,7 +6,7 @@ eval.js text/javascript
       let r = eval(p);
       if(typeof r == 'object') {
         let content = /\[object ([A-Za-z0-9 -_]+)]/gi.exec(new String(r));
-        return Array.from(content);
+        let cl = content ? content[1] || content[0] : "Object";
       }
   } catch (er) {
     alert(er);
