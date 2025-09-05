@@ -1,11 +1,14 @@
 eval.js text/javascript
 (function() {
+  const evaluateCode(x) => {
   try {
       let p  = prompt("evaluate");
       let r = eval(p);
   } catch (er) {
     alert(er);
+    return er;
   }
+  };
 })()
 
 jsl.js text/javascript
